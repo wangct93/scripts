@@ -1,0 +1,21 @@
+{
+  "name": "@wangct/scripts",
+  "version": "1.0.1",
+  "description": "脚本",
+  "main": "src/index.js",
+  "scripts": {
+    "pu": "npm publish --registry https://registry.npmjs.org/ --access=public"
+  },
+  "bin": {
+    "scripts": "./bin/start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wangct/node-util": "^1.0.4"
+  },
+  "files": [
+    "src",
+    "bin"
+  ]
+}
